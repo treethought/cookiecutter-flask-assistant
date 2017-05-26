@@ -37,7 +37,7 @@ BSD licensed.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cookicutter-flask`: https://github.com/sloria/cookiecutter-flask
-.. _`cookiecutter-flask-ask`: https://github.com/chrisvoncsefalvay/cookiecutter-flask-asks
+.. _`cookiecutter-flask-ask`: https://github.com/chrisvoncsefalvay/cookiecutter-flask-ask
 .. _`Flask-Assistant`:  https://github.com/treethought/flask-assistant
 
 

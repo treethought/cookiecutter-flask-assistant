@@ -11,7 +11,7 @@ from flask import Blueprint
 from flask_assistant import Assistant, ask, tell
 
 blueprint = Blueprint('assist', __name__, url_prefix='/assist')
-assist = Assistant(Blueprint=blueprint)
+assist = Assistant(blueprint=blueprint)
 
 logging.getLogger('flask_assistant').setLevel(logging.DEBUG)
 

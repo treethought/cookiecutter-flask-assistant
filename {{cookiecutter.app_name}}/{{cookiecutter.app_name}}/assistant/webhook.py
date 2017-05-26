@@ -3,7 +3,7 @@
 # {{ cookiecutter.app_name }}
 # By {{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>
 #
-# {{ cookiecutter.skill_short_description }}
+# {{ cookiecutter.project_short_description }}
 
 import logging
 

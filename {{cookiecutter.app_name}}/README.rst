@@ -1,14 +1,14 @@
-*******************************
 {{ cookiecutter.project_name }}
-*******************************
+===============================
 
 {{ cookiecutter.project_short_description}}
 
 Setup
-=====
+-----
 
 API.AI and Server Configuration
---------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 1. Create a new Agent within the `API.AI Console_`
 2. Click "Fullfillment" left side menu and enable webhook
 3. With `ngrok`_ installed:
@@ -20,7 +20,8 @@ API.AI and Server Configuration
 3. Copy the **Forwarding https** url and paste it as the webhook URL in the "Fullfillment" menu
 
 Project Environment
--------------------
+^^^^^^^^^^^^^^^^^^^
+
  It is recommended to use a virtual environment
 
 
@@ -28,7 +29,7 @@ Project Environment
 
     .. code-block:: bash
     
-        git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}
+        git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}
         cd {{cookiecutter.project_name}}
 
     
@@ -57,8 +58,9 @@ Project Environment
    
         pip install -r requirements.txt
 
+
 Development
-=================
+-----------
 
 Register Assistant Schema with API.AI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,13 +91,13 @@ To quickly send queries to your agent and view the responses:
 
 
 Deployment
-==========
+----------
 
 In your production environment, make sure the ``FLASK_DEBUG`` environment
 variable is unset or is set to ``0``, so that ``ProdConfig`` is used.
 
 Heroku
-------
+^^^^^^
 
 Create Heroku app
 

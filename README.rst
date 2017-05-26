@@ -2,12 +2,13 @@
 cookiecutter-flask-assistant
 ****************************
 
-Use project skeleton to get started with `Flask-Assistant`_ quickly!
+A project skeleton to get started with `Flask-Assistant`_ quickly!
 
-This template provides:
+This template provides
+
     - a basic Flask app created utilizing best practices: `Blueprints <http://flask.pocoo.org/docs/blueprints/>`_ and `Application Factory <http://flask.pocoo.org/docs/patterns/appfactories/>`_ patterns
     - blueprint for Flask-Assistant API.AI webhook
-    - blueprint for a web interface 
+    - blueprint for a typical web application
 
 Use it now
 ----------
@@ -35,9 +36,9 @@ BSD licensed.
 
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
-.. _cookicutter-flask: https://github.com/sloria/cookiecutter-flask
-.. _cookiecutter-flask-ask: https://github.com/chrisvoncsefalvay/cookiecutter-flask-asks
-.. _Flask-Assistant:  https://github.com/treethought/flask-assistant
+.. _`cookicutter-flask`: https://github.com/sloria/cookiecutter-flask
+.. _`cookiecutter-flask-ask`: https://github.com/chrisvoncsefalvay/cookiecutter-flask-asks
+.. _`Flask-Assistant`:  https://github.com/treethought/flask-assistant
 
 
 

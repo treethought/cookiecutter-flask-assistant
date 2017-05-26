@@ -2,6 +2,7 @@
     "author_name": "Your Name",
     "author_email": "Your email",
     "github_username": "username",
+    "repo_name": "Yoir git repo name",
     "project_name": "My Virtual Assistant",
     "app_name": "my_assist",
     "project_short_description": "A Virtual Assistant created with flask and flask-assistant"

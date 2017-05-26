@@ -13,7 +13,7 @@ This template provides
 Get Started
 ------------
 
-1. Install and pull this repo
+1. Install cookiecutter and pull this repo
 
     .. code-block:: bash
     

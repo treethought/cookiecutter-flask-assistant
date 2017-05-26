@@ -103,8 +103,8 @@ Create Heroku app
 
     .. code-block:: bash
     
-        heroku create {{cookiecutter.app_name}}
-        git remote add stage git@heroku.com:{{cookiecutter.app_name}}.git
+        heroku create {{cookiecutter.repo_name}}
+        git remote add stage git@heroku.com:{{cookiecutter.repo_name}}.git
 
 Configure Heroku app
 

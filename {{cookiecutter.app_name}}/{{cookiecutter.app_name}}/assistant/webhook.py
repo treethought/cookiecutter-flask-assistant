@@ -18,6 +18,6 @@ logging.getLogger('flask_assistant').setLevel(logging.DEBUG)
 
 @assist.action('Greetings')
 def welcome():
-    speech = 'Welcome, to {{ cookiecutter.app_name }}!'
+    speech = 'Welcome to {{ cookiecutter.project_name }}!'
     return ask(speech)
 

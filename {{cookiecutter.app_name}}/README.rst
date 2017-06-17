@@ -18,7 +18,7 @@ API.AI and Server Configuration
         ./ngrok http 5000
 
 3. Copy the **Forwarding https** url and paste it as the webhook URL in the "Fullfillment" menu
-
+4. Append '/assist' to the webhook url (as this is the route to the assitant blueprint)
 Project Environment
 ^^^^^^^^^^^^^^^^^^^
 
@@ -30,7 +30,7 @@ Project Environment
     .. code-block:: bash
     
         git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}
-        cd {{cookiecutter.project_name}}
+        cd {{cookiecutter.repo_name}}
 
     
 2. Within the `API.AI Console_`, click the "gear" icon next to the API.AI agent name.

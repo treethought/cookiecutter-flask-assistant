@@ -9,9 +9,14 @@ import os
 class Config(object):
     """Base configuration."""
 
-    SECRET_KEY = os.environ.get('{{cookiecutter.app_name | upper}}_SECRET', 'secret-key')  # TODO: Change me
+    SECRET_KEY = os.getenv('{{cookiecutter.app_name | upper}}_SECRET', 'secret-key')  # TODO: Change me
     APP_DIR = os.path.abspath(os.path.dirname(__file__))  # This directory
     PROJECT_ROOT = os.path.abspath(os.path.join(APP_DIR, os.pardir))
+
+    # Flask-Assistant options
+    CLIENT_ACCESS_TOKEN = os.getenv('CLIENT_ACCESS_TOKEN')
+    DEV_ACCESS_TOKEN = os.getenv('DEV_ACCESS_TOKEN')
+    ASSIST_ACTIONS_ON_GOOGLE = True
 
 
 class ProdConfig(Config):

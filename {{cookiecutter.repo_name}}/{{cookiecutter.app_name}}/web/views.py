@@ -9,5 +9,5 @@ blueprint = Blueprint('public', __name__, static_folder='../static')
 @blueprint.route('/', methods=['GET', 'POST'])
 def home():
     """Landing page for the web/html blueprint"""
-    return "{{cookiecutter.app_name}} Web Page"
+    return "{{cookiecutter.project_name}} Web Page"
 

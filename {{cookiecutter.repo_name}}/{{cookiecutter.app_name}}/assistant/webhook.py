@@ -21,3 +21,5 @@ def welcome():
     speech = 'Welcome to {{ cookiecutter.project_name }}!'
     return ask(speech)
 
+
+
